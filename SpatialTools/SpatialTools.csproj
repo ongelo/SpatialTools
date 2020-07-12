@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>M. Oguz Ongel</Authors>
+    <Description>Basic geography utils to generate NetTopologySuite.Geometries data (e.g. polygons and points).</Description>
+    <PackageId>SpatialTools_Ongelo</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetTopologySuite" Version="2.0.0" />
+  </ItemGroup>
+</Project>
